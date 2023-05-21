@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "486931599360",
+    "project_id": "abtestingproject-f96d1",
+    "storage_bucket": "abtestingproject-f96d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486931599360:android:24948a544b68ea1cf888e5",
+        "android_client_info": {
+          "package_name": "com.example.abtestingproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "486931599360-r2q8m26utpvdrq8lg8tt146qn0n7e4e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhVT-fyS3l4WKAL8xZwasj_55WN1HxlcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "486931599360-r2q8m26utpvdrq8lg8tt146qn0n7e4e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

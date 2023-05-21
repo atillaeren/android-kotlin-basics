@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homepage_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.firebaseproject.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_uploadPhotoFragment"
+            app:destination="@id/uploadPhotoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_postCommentFragment"
+            app:destination="@id/postCommentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadPhotoFragment"
+        android:name="com.example.firebaseproject.UploadPhotoFragment"
+        android:label="fragment_upload_photo"
+        tools:layout="@layout/fragment_upload_photo" />
+    <fragment
+        android:id="@+id/postCommentFragment"
+        android:name="com.example.firebaseproject.PostCommentFragment"
+        android:label="fragment_post_comment"
+        tools:layout="@layout/fragment_post_comment" >
+        <argument
+            android:name="uid"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Home"
+        android:icon="@drawable/ic_action_home"/>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Headquarter"
+        android:icon="@drawable/ic_action_headquarter"/>
+
+    <item
+        android:id="@+id/item3"
+        android:title="Warzone"
+        android:icon="@drawable/ic_action_warzone"/>
+
+    <item
+        android:id="@+id/item4"
+        android:title="End"
+        android:icon="@drawable/ic_action_end"/>
+
+
+</menu>

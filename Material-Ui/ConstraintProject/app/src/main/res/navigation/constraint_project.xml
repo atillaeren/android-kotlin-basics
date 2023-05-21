@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_project"
+    app:startDestination="@id/constraintFragment">
+
+    <fragment
+        android:id="@+id/constraintFragment"
+        android:name="com.example.constraintproject.ConstraintFragment"
+        android:label="fragment_constraint"
+        tools:layout="@layout/fragment_constraint" />
+</navigation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.bottomnavproject.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/headquarterFragment2"
+        android:name="com.example.bottomnavproject.HeadquarterFragment"
+        android:label="fragment_headquarter"
+        tools:layout="@layout/fragment_headquarter" />
+    <fragment
+        android:id="@+id/warzoneFragment2"
+        android:name="com.example.bottomnavproject.WarzoneFragment"
+        android:label="fragment_warzone"
+        tools:layout="@layout/fragment_warzone" />
+    <fragment
+        android:id="@+id/endFragment2"
+        android:name="com.example.bottomnavproject.EndFragment"
+        android:label="fragment_end"
+        tools:layout="@layout/fragment_end" />
+</navigation>

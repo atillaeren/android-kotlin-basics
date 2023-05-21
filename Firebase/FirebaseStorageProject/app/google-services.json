@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207293577761",
+    "project_id": "storageproject-f4445",
+    "storage_bucket": "storageproject-f4445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207293577761:android:49617f43098f5da3fd4160",
+        "android_client_info": {
+          "package_name": "com.example.firebasestorageproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207293577761-d5ako3c3m7pb132csv17m5d2gmld4j2t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAIvcT30AK5e5aPmfqEbEXxE9E1OAZzbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207293577761-d5ako3c3m7pb132csv17m5d2gmld4j2t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

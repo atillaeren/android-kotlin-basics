@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>title_string</key>
+    <value>Eurovision Song Contest</value>
+  </entry>
+  <entry>
+    <key>description_number</key>
+    <value>2022</value>
+  </entry>
+  <entry>
+    <key>imageview_visibility</key>
+    <value>false</value>
+  </entry>
+</defaults>

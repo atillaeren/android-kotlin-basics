@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/picker_nav"
+    app:startDestination="@id/mainPageFragment">
+
+    <fragment
+        android:id="@+id/mainPageFragment"
+        android:name="com.example.pickerproject.MainPageFragment"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPageFragment_to_imagePickFragment"
+            app:destination="@id/imagePickFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/imagePickFragment"
+        android:name="com.example.pickerproject.ImagePickFragment"
+        android:label="fragment_image_pick"
+        tools:layout="@layout/fragment_image_pick" >
+        <action
+            android:id="@+id/action_imagePickFragment_to_fontPickFragment"
+            app:destination="@id/fontPickFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fontPickFragment"
+        android:name="com.example.pickerproject.FontPickFragment"
+        android:label="fragment_font_pick"
+        tools:layout="@layout/fragment_font_pick" >
+        <action
+            android:id="@+id/action_fontPickFragment_to_agePickFragment"
+            app:destination="@id/agePickFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/agePickFragment"
+        android:name="com.example.pickerproject.AgePickFragment"
+        android:label="fragment_age_pick"
+        tools:layout="@layout/fragment_age_pick" >
+        <action
+            android:id="@+id/action_agePickFragment_to_mainPageFragment"
+            app:destination="@id/mainPageFragment" />
+    </fragment>
+</navigation>

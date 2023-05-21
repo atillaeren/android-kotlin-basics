@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/eurovision_nav"
+    app:startDestination="@id/eurovisionFragment">
+
+    <fragment
+        android:id="@+id/eurovisionFragment"
+        android:name="com.example.remoteconfigproject.EurovisionFragment"
+        android:label="fragment_eurovision"
+        tools:layout="@layout/fragment_eurovision" />
+</navigation>

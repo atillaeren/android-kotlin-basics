@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667307067834",
+    "project_id": "neonfirebase-92b52",
+    "storage_bucket": "neonfirebase-92b52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667307067834:android:26b6c8da0aa36ec5cbf583",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667307067834-9b9c0k6ote0covt8rl7urpito0hnqjiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTPCD_fVikS16G1Muzd7CACmumUWjBtdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667307067834-9b9c0k6ote0covt8rl7urpito0hnqjiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
